@@ -1,0 +1,101 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.logo
+{
+	padding-left: 235px;
+    padding-bottom: 20px;
+}
+
+.navigation
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+ul
+{
+ 	margin: 0; 
+ 	padding: 0;
+ 	list-style: none;
+}
+
+ul li
+{
+	display: inline-block;
+ 	margin: 0 0 0 20px;
+}
+
+.header 
+{
+	background: url('image/banniere.jpg') no-repeat top left;
+	position: relative;
+	width: 200px;
+	height: 100px;
+	z-index: 1;
+}
+
+.title 
+{
+	position: relative;
+	top: 85px;
+	left: 232px;
+	width: 600px;
+	z-index: 1;
+	color: white;
+}
+
+.text
+{
+	position: relative;
+	top: 100px;
+	left: 232px;
+	width: 400px;
+	z-index: 2;
+	color: white;
+}
+
+strong
+{
+	color: #5CADD3;
+}
+
+.button
+{
+	position: relative;
+	top: 125px;
+	left: 232px;
+	width: 90px;
+	z-index: 3;
+	color: white;
+	padding: 8px 12px;
+	background-color: #5CADD3;
+	color: white;
+	border-radius: 3px;
+}
+
+input
+{
+	color: white;
+	background-color: #5CADD3;
+	font-size: 18px;
+	border: none;
+}
+
+@font-face
+{
+	font-family: '../fonts/glyphicons';
+	src: url('glyphicons-halflings-regular.eot') format('eot'),
+		 url('glyphicons-halflings-regular.svg') format('svg'),
+		 url('glyphicons-halflings-regular.ttf') format('truetype'),
+		 url('glyphicons-halflings-regular.woff') format('woff');
+}
