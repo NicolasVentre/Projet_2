@@ -4,9 +4,11 @@
 	padding: 0;
 }
 
+/*Tags for first party*/
+
 .logo
 {
-
+	margin-bottom: 15px;
 }
 
 .navigation
@@ -36,7 +38,7 @@ ul li
  	margin: 0 0 0 20px;
 }
 
-.header 
+.banner 
 {
 	background: url('image/banniere.jpg') no-repeat top left;
 	position: relative;
@@ -45,39 +47,33 @@ ul li
 	z-index: 1;
 }
 
-.title 
+.webagency
 {
-	position: relative;
-	top: 85px;
-	left: 232px;
+	position: absolute;
+	top: 250px;
+	left: 235px;
 	width: 600px;
 	z-index: 1;
 	color: white;
 }
 
-.text
+.project
 {
-	position: relative;
-	top: 100px;
-	left: 232px;
+	position: absolute;
+	top: 335px;
+	left: 235px;
 	width: 400px;
 	z-index: 2;
 	color: white;
 }
 
-strong
-{
-	color: #5CADD3;
-}
-
 .button
 {
-	position: relative;
-	top: 125px;
-	left: 232px;
+	position: absolute;
+	top: 375px;
+	left: 235px;
 	width: 90px;
 	z-index: 3;
-	color: white;
 	padding: 8px 12px;
 	background-color: #5CADD3;
 	color: white;
@@ -92,11 +88,52 @@ input
 	border: none;
 }
 
-@font-face
+strong
 {
-	font-family: '../fonts/glyphicons';
-	src: url('glyphicons-halflings-regular.eot') format('eot'),
-		 url('glyphicons-halflings-regular.svg') format('svg'),
-		 url('glyphicons-halflings-regular.ttf') format('truetype'),
-		 url('glyphicons-halflings-regular.woff') format('woff');
+	color: #5CADD3;
 }
+
+/*Tags for "nos services"*/
+
+.service
+{
+	position: relative;
+	top: 500px;
+	display: flex;
+	justify-content: center;
+}
+
+#service
+{
+	position: relative;
+	top: 500px;	
+	text-align: center;
+}
+
+.desktop
+{
+	position: absolute;
+	top: 750px;
+}
+
+.ux_design
+{
+	position: relative;
+	top: 600px;
+	left: 600px;
+}
+
+.ui_design
+{
+	position: relative;
+	top: 625px;
+	left: 600px;
+}
+
+.seo
+{
+	position: relative;
+	top: 650px;
+	left: 600px;
+}
+
