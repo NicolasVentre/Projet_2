@@ -42,18 +42,17 @@ ul li
 .webagency
 {
 	position: absolute;
-	top: 250px;
-	left: 235px;
+	top: 300px;
+	left: 300px;
 	width: 600px;
-
 	color: white;
 }
 
 .project
 {
 	position: absolute;
-	top: 335px;
-	left: 235px;
+	top: 400px;
+	left: 300px;
 	width: 400px;
 	color: white;
 }
@@ -61,11 +60,10 @@ ul li
 .button
 {
 	position: absolute;
-	top: 375px;
-	left: 235px;
+	top: 450px;
+	left: 300px;
 	width: 90px;
-	z-index: 3;
-	padding: 8px 12px;
+	padding: 12px 16px;
 	background-color: #5CADD3;
 	color: white;
 	border-radius: 3px;
@@ -98,12 +96,13 @@ strong
 	position: absolute;
 	top: 950px;
 	left: 600px;
+	width: 625px;
 }
 
 .desktop
 {
-	position: absolute;
-	top: 950px;
+	position: absolute
+;	top: 950px;
 }
 
 .ux_design
@@ -111,6 +110,7 @@ strong
 	position: absolute;
 	top: 1050px;
 	left: 600px;
+	width: 500px;
 }
 
 .ui_design
@@ -118,6 +118,7 @@ strong
 	position: absolute;
 	top: 1150px;
 	left: 600px;
+	width: 500px;
 }
 
 .seo
@@ -125,4 +126,5 @@ strong
 	position: absolute;
 	top: 1250px;
 	left: 600px;
+	width: 500px;
 }
