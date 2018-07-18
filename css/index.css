@@ -82,6 +82,24 @@ strong
 	color: #5CADD3;
 }
 
+.fa-angle-left
+{
+	position: absolute;
+	top: 400px;
+	color: white;
+	font-size: 32px;
+	left: 10px;
+}
+
+.fa-angle-right
+{
+	position: absolute;
+	top: 400px;
+	color: white;
+	font-size: 32px;
+	right: 10px;
+}
+
 /*Tags for "nos services"*/
 
 .service
@@ -127,4 +145,31 @@ strong
 	top: 1250px;
 	left: 600px;
 	width: 500px;
+}
+
+.fa-chart-line
+{
+	position: absolute;
+	top: 1065px;
+	left: 525px;
+	font-size: 28px;
+	color: #5CADD3;
+}
+
+.fa-cubes
+{
+	position: absolute;
+	top: 1165px;
+	left: 525px;
+	font-size: 28px;
+	color: #5CADD3;
+}
+
+.fa-chart-pie
+{
+	position: absolute;
+	top: 1265px;
+	left: 525px;
+	font-size: 28px;
+	color: #5CADD3;
 }
