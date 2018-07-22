@@ -4,11 +4,17 @@
 	padding: 0;
 }
 
+body
+{
+	overflow-x: hidden;
+}
+
 /*Tags for first party*/
 
 .logo
 {
 	margin-bottom: 15px;
+	width: 100%;
 }
 
 .navigation
@@ -42,7 +48,6 @@ ul li:hover
 .banner img 
 {
     width: 100%;
-    height: auto;
 }
 
 .banner
