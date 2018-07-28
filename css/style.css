@@ -10,6 +10,11 @@ body
 	font-family: roboto;
 }
 
+h1
+{
+	text-transform: uppercase;
+}
+
 /*Tags for first party*/
 
 /*Tags for HEADER*/
@@ -20,7 +25,7 @@ header
 	height: 100px;
 	border: 1px solid #fff;
 	background-color: #fff;
-	z-index: 1;
+	z-index: 3;
 }
 
 #navigation
@@ -34,15 +39,13 @@ header
 	align-items: center;
 }
 
-.logo
-{
-	width: 15%;
-}
-
 .logo img
 {
 	width: 100%;
+	margin-bottom: 100px;
 }
+
+
 
 ul
 {
@@ -91,22 +94,16 @@ a:hover
 	position: relative;
 }
 
-.banner img 
+img 
 {
     width: 100%;
-}
-
-.banner
-{
-	position: absolute;
-	width: 100%;
-	margin-top: 100px
+    margin-top: 100px;
 }
 
 .arrows
 {
 	position: absolute;
-	top: 45%;
+	top: 52%;
 	width: 2.5em;
 	height: 3.5em;
 }
@@ -158,13 +155,16 @@ a:hover
 
 .webagency_intro
 {
-	top: 25%;
-	left: 10%;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 550px;
+    color: #fff;
 }
 
-.slide_webagency
+.slider_webagency
 {
-	text-transform: uppercase;
+	margin-bottom: 15px;
 }
 
 span
@@ -172,45 +172,13 @@ span
 	color: #5CADD3;
 }
 
-.slide_texte
+.slider_texte
 {
-
+	margin-bottom: 15px;
 }
 
-.slide_button
+.slider_button
 {
-
-}
-
-/*.texte
-{
-	position: absolute;
-	top: 225px;
-    left: 300px;
-    width: 600px;
-    color: white;
-}
-
-.slider
-{
-	position: absolute;
-}
-
-
-.webagency
-{
-	margin-bottom: 20px;
-}
-
-.project
-{
-	margin-bottom: 20px;
-}
-
-.button
-{
-	top: 450px;
-	left: 300px;
 	width: 90px;
 	padding: 12px 16px;
 	background-color: #5CADD3;
@@ -226,51 +194,63 @@ input
 	border: none;
 }
 
-*/
-
-/*Tags for "nos services"
+/*Tags for "nos services"*/
 
 .service_content
 {
 	position: relative;
 }
 
-#info_service
-{
-	position: absolute;
-	top: 225px;
-	left: 300px;
-}
-
 .service
 {
 	position: absolute;
 	top: 50px;
-	left: 750px;
-	width: 600px;
+	left: 33%;
+	width: 670px;
+}
+
+.service_titre
+{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.separateur
+{
+	position: absolute;
+	top: 60px;
+	width: 150px;
+	left: 38.7%;
+	border: 1px solid #ececec;
+}
+
+.dot_service
+{
+	position: absolute;
+	top: 45px;
+	left: 47.5%;
+	color: #5CADD3;
+	border: 7px solid #fff;
+	border-radius: 50%;
+}
+
+.service_texte
+{
+	text-align: center;
+}
+
+#info_service
+{
+	position: absolute;
+	top: 150px;
+	left: 18%;
 }
 
 .ux_design
 {
 	position: absolute;
 	top: 300px;
-	left: 955px;
-	width: 500px;
-}
-
-.ui_design
-{
-	position: absolute;
-	top: 400px;
-	left: 955px;
-	width: 500px;
-}
-
-.seo
-{
-	position: absolute;
-	top: 500px;
-	left: 955px;
+	left: 54.5%;
 	width: 500px;
 }
 
@@ -278,34 +258,86 @@ input
 {
 	position: absolute;
 	top: 300px;
-	left: 890px;
+	left: 50%;
 	font-size: 22px;
 	color: #5CADD3;
 	border: 1px solid #E5E5E5;
 	padding: 16px;
 	border-radius: 50%;
+	z-index: 1;
+}
+
+.dot_line
+{
+	position: absolute;
+	top: 315px;
+	left: 52.25%;
+	color: #5CADD3;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.ui_design
+{
+	position: absolute;
+	top: 400px;
+	left: 54.5%;
+	width: 500px;
 }
 
 .fa-cubes
 {
 	position: absolute;
 	top: 400px;
-	left: 890px;
+	left: 50%;
 	font-size: 22px;
 	color: #5CADD3;
 	border: 1px solid #E5E5E5;
 	padding: 16px;
 	border-radius: 50%;
+	z-index: 1;
+}
+
+.dot_cube
+{
+	position: absolute;
+	top: 415px;
+	left: 52.25%;
+	color: #5CADD3;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.seo
+{
+	position: absolute;
+	top: 500px;
+	left: 54.5%;
+	width: 500px;
 }
 
 .fa-chart-pie
 {
 	position: absolute;
 	top: 500px;
-	left: 890px;
+	left: 50%;
 	font-size: 22px;
 	color: #5CADD3;
 	border: 1px solid #E5E5E5;
 	padding: 16px;
 	border-radius: 50%;
-}*/
+	z-index: 1;
+}
+
+.dot_pie
+{
+	position: absolute;
+	top: 515px;
+	left: 52.4%;
+	color: #5CADD3;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	z-index: 2;
+}
