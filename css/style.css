@@ -29,6 +29,20 @@ header
 	z-index: 3;
 }
 
+#projet_navigation
+{
+	position: absolute;
+	display: flex;
+    flex-direction: row;
+	width: 380px;
+    padding: 12px 16px;
+    background-color: #5CADD3;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
 #navigation
 {
 	margin: 0;
@@ -396,17 +410,3 @@ input
 {
 	text-align: center;
 }
-
-/*.projet_navigation
-{
-	position: absolute;
-	display: flex;
-    flex-direction: row;
-	width: 280px;
-    padding: 12px 16px;
-    background-color: #5CADD3;
-    color: white;
-    border-radius: 3px;
-    text-align: center;
-
-}*/
