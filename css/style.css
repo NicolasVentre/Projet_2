@@ -217,6 +217,7 @@ input
 {
 	text-align: center;
 	margin-bottom: 50px;
+	text-transform: uppercase;
 }
 
 .service_separateur
@@ -364,6 +365,7 @@ input
 .projet_titre
 {
 	margin-bottom: 50px;
+	text-transform: uppercase;
 }
 
 .projet_separateur
@@ -393,15 +395,13 @@ input
 
 #projet_navigation
 {
-	/*position: absolute;*/
-	top: 150px;
-    width: 313px;
+	margin-top: 50px;
     background-color: #E5E5E5;
     line-height: 30px; 
     margin-bottom: 30px;
 }
 
-#projet-navigation ul 
+#projet_navigation ul 
 {
     list-style-type: none;
     display: flex;
@@ -410,19 +410,19 @@ input
     font-size: 0.9em;
 }
 
-#projet-navigation li 
+#projet_navigation li 
 {
     padding: 0.2rem 0.8rem;
     width: 83px;
 }
 
-#projet-navigation a 
+#projet_navigation a 
 {
     text-decoration: none;
 
 }
 
-#projet-navigation .block-nav 
+#projet_navigation .block-nav 
 {
     position: relative;
     background: #5DADD2;
@@ -432,12 +432,12 @@ input
     border-radius: 5%;
 }
 
-#projet-navigation .active-text 
+#projet_navigation .active-text 
 {
     color: #fff;
 }
 
-#projet-navigation .nav_projet:hover
+#projet_navigation .nav_projet:hover
 {
     background: #5DADD2;
     border: 2px solid #5DADD2;
@@ -447,7 +447,7 @@ input
     width: 84px;
 }
 
-#projet-navigation .nav_projet a:hover 
+#projet_navigation .nav_projet a:hover 
 {
     color: #fff;
 }
