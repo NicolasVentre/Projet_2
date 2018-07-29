@@ -33,83 +33,6 @@ header
 	z-index: 3;
 }
 
-#projet_navigation
-{
-	/*position: absolute;*/
-	top: 150px;
-    width: 313px;
-    background-color: #E5E5E5;
-    line-height: 30px; 
-    margin-bottom: 30px;
-}
-
-#projet-navigation ul 
-{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 0.9em;
-}
-
-#projet-navigation li 
-{
-    padding: 0.2rem 0.8rem;
-    width: 83px;
-}
-
-#projet-navigation a 
-{
-    text-decoration: none;
-
-}
-
-#projet-navigation .block-nav 
-{
-    position: relative;
-    background: #5DADD2;
-    border: 2px solid #5DADD2;
-    text-decoration: none;
-    border-bottom: 3px solid #468CAD;
-    border-radius: 5%;
-}
-
-#projet-navigation .active-text 
-{
-    color: #fff;
-}
-
-#projet-navigation .nav_projet:hover
-{
-    background: #5DADD2;
-    border: 2px solid #5DADD2;
-    border-bottom: 3px solid #468CAD;
-    border-radius: 5%;
-    height: 30px;
-    width: 84px;
-}
-
-#projet-navigation .nav_projet a:hover 
-{
-    color: #fff;
-}
-
-/*.block_nav
-{
-	background-color: #5CADD3;
-	
-}
-
-.nav_projet
-{
-	background-color: #E5E5E5;
-	height: 100px;
-}
-
-a
-{
-
-}*/
 
 #navigation
 {
@@ -468,7 +391,66 @@ input
 	width: 670px;
 }
 
+#projet_navigation
+{
+	/*position: absolute;*/
+	top: 150px;
+    width: 313px;
+    background-color: #E5E5E5;
+    line-height: 30px; 
+    margin-bottom: 30px;
+}
 
+#projet-navigation ul 
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+#projet-navigation li 
+{
+    padding: 0.2rem 0.8rem;
+    width: 83px;
+}
+
+#projet-navigation a 
+{
+    text-decoration: none;
+
+}
+
+#projet-navigation .block-nav 
+{
+    position: relative;
+    background: #5DADD2;
+    border: 2px solid #5DADD2;
+    text-decoration: none;
+    border-bottom: 3px solid #468CAD;
+    border-radius: 5%;
+}
+
+#projet-navigation .active-text 
+{
+    color: #fff;
+}
+
+#projet-navigation .nav_projet:hover
+{
+    background: #5DADD2;
+    border: 2px solid #5DADD2;
+    border-bottom: 3px solid #468CAD;
+    border-radius: 5%;
+    height: 30px;
+    width: 84px;
+}
+
+#projet-navigation .nav_projet a:hover 
+{
+    color: #fff;
+}
 
 #image
 {
