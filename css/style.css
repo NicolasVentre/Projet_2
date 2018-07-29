@@ -51,7 +51,7 @@ header
 	margin-bottom: 100px;
 }
 
-ul
+header ul
 {
 	display: flex;
 	list-style: none;
@@ -65,14 +65,14 @@ ul
 	border-top: 3px solid #5CADD3;
 }
 
-li
+header li
 {
 	width: 90px;
 	text-align: center;
 	border-top: 3px solid #fff;
 }
 
-a
+header a
 {
 	position: relative;
 	color: #575A5E;
