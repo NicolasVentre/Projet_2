@@ -13,7 +13,11 @@ body
 
 h1
 {
-	text-transform: uppercase;
+	color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.7rem;
+    /*width: 420px;*/
 }
 
 /*Tags for first party*/
@@ -31,10 +35,9 @@ header
 
 #projet_navigation
 {
-	position: absolute;
+	/*position: absolute;*/
 	top: 150px;
     width: 313px;
-    border: 1px solid #E5E5E5;
     background-color: #E5E5E5;
     line-height: 30px; 
     margin-bottom: 30px;
@@ -69,6 +72,26 @@ header
     text-decoration: none;
     border-bottom: 3px solid #468CAD;
     border-radius: 5%;
+}
+
+#projet-navigation .active-text 
+{
+    color: #fff;
+}
+
+#projet-navigation .nav_projet:hover
+{
+    background: #5DADD2;
+    border: 2px solid #5DADD2;
+    border-bottom: 3px solid #468CAD;
+    border-radius: 5%;
+    height: 30px;
+    width: 84px;
+}
+
+#projet-navigation .nav_projet a:hover 
+{
+    color: #fff;
 }
 
 /*.block_nav
