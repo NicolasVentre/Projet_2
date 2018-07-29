@@ -80,12 +80,12 @@ header a
 	width: 100%;
 }
 
-ul li:hover
+header ul li:hover
 {
 	border-top: 3px solid #5CADD3;
 }
 
-a:hover
+header a:hover
 {
 	text-decoration: none;
 }
