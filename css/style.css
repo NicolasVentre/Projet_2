@@ -358,8 +358,8 @@ input
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*border: 1px solid #F5F5F5;
-    background-color: #F5F5F5;*/
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
 }
 
 .projet_titre
@@ -397,7 +397,7 @@ input
 {
 	margin-top: 50px;
     background-color: #E5E5E5;
-    line-height: 30px; 
+    line-height: 45px; 
     margin-bottom: 30px;
 }
 
@@ -407,13 +407,14 @@ input
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 45px;
     font-size: 0.9em;
 }
 
 #projet_navigation li 
 {
     padding: 0.2rem 0.8rem;
-    width: 83px;
+    width: 86px;
 }
 
 #projet_navigation a 
@@ -429,7 +430,7 @@ input
     border: 2px solid #5DADD2;
     text-decoration: none;
     border-bottom: 3px solid #468CAD;
-    border-radius: 5%;
+    border-radius: 3px;
 }
 
 #projet_navigation .active-text 
@@ -442,9 +443,9 @@ input
     background: #5DADD2;
     border: 2px solid #5DADD2;
     border-bottom: 3px solid #468CAD;
-    border-radius: 5%;
-    height: 30px;
-    width: 84px;
+    border-radius: 3px;
+    height: 35px;
+    width: 86px;
 }
 
 #projet_navigation .nav_projet a:hover 
