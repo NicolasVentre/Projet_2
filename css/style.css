@@ -47,7 +47,6 @@ header
 .logo img
 {
 	width: 100%;
-	margin-bottom: 100px;
 }
 
 header ul
@@ -456,87 +455,3 @@ input
 
 /*Tags for image*/
 
-/*.image img
-{
-	display: grid;
-	grid-template-columns: repeat(4.1fr);
-	grid-column-gap: 20px; 
-	margin-top: 50px;
-	/*width: 100%;
-}*/
-
-/*.image
-{
-	max-width: 940px;
-  	/*margin: auto;*/
-}
-
-/*.image div
-{
-  border: 2px solid red;
-  border-radius: 5px;
-  background-color: #5CADD3;
-  padding: 1em;
-  color: #fff;
-}
-
-.image 
-{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 40px;
-  grid-auto-rows: minmax(200px, auto);
-}
-
-.one {
-  grid-column: 1 ;
-  grid-row: 1;
-}
-
-.two 
-{ 
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.three 
-{
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.four 
-{
-  grid-column: 4;
-  grid-row: 1;
-}
-
-.five 
-{
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.six 
-{
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.seven
-{
-  grid-column: 3;
-  grid-row: 2;
-}
-
-.eight
-{
-  grid-column: 4;
-  grid-row: 2;
-}
-
-.nine
-{
-  grid-column: 2 / 4;
-  grid-row: 3;
-}*/
