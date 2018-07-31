@@ -348,46 +348,53 @@ input
 /*Tags for "nos projet"*/
 
 
+.projet_content
+{
+	position: relative;
+	top: 640px;
+	/*width: 100%;
+	height: auto;
+	border: 1px solid #E5E5E5;
+	background-color: #E5E5E5;*/
+}
+
 .projet
 {
-    position: relative;
-    top: 625px;
-    /*width: 100%;*/
-    /*display: flex;
-    align-items: center;*/
-    border: 1px solid #F5F5F5;
-    background-color: #F5F5F5;
+	position: absolute;
+	top: 40px;
+	left: 33%;
+	width: 670px;
 }
 
 .projet_titre
 {
+	text-align: center;
 	margin-bottom: 50px;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 .projet_separateur
 {
-    top: 60px;
-    width: 150px;
-    left: 46%;
-    border: 1px solid #ececec;
+	position: absolute;
+	top: 60px;
+	width: 150px;
+	left: 38.7%;
+	border: 1px solid #ececec;
 }
 
 .dot_projet
 {
-    top: 45px;
-    left: 49%;
-    color: #5CADD3;
-    border: 7px solid #fff;
-    border-radius: 50%;
+	position: absolute;
+	top: 45px;
+	left: 47.5%;
+	color: #5CADD3;
+	border: 7px solid #fff;
+	border-radius: 50%;
 }
 
 .projet_texte
 {
-	width: 670px;
 	text-align: center;
-	margin-top: 50px;
 }
 
 /*#projet_navigation
@@ -450,7 +457,7 @@ input
 #projet_navigation .nav_projet a:hover 
 {
     color: #fff;
-}*/
+}
 
 /*Tags for image*/
 
