@@ -444,6 +444,11 @@ input
     color: #fff;
 }
 
+.nav_projet
+{
+	border-bottom: 3px solid #FFFFF0;
+}
+
 #projet_navigation .nav_projet:hover
 {
     background: #5CADD3;
