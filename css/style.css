@@ -447,16 +447,14 @@ input
 .nav_projet
 {
 	border-bottom: 3px solid #FFFFF0;
+	text-align: center;
 }
 
 #projet_navigation .nav_projet:hover
 {
     background: #5CADD3;
-    border: 2px solid #5CADD3;
     border-bottom: 3px solid #468CAD;
     border-radius: 3px;
-    height: 35px;
-    width: 86px;
 }
 
 #projet_navigation .nav_projet a:hover 
@@ -464,9 +462,14 @@ input
     color: #fff;
 }
 
+
+
 /*Tags for image*/
 
-#projet_image_content
+.nicolas img
+{
+	width: 100%;
+}
 
 /*Tags for "nous contacter"*/
 
