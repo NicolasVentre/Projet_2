@@ -406,6 +406,13 @@ input
     border-radius: 3px;
 }
 
+.nav_projet
+{
+	border-bottom: 3px solid #FFFFF0;
+	border-radius: 3px;
+	text-align: center;
+}
+
 #projet_navigation ul 
 {
     list-style-type: none;
@@ -444,12 +451,6 @@ input
     color: #fff;
 }
 
-.nav_projet
-{
-	border-bottom: 3px solid #FFFFF0;
-	text-align: center;
-}
-
 #projet_navigation .nav_projet:hover
 {
     background: #5CADD3;
@@ -462,15 +463,117 @@ input
     color: #fff;
 }
 
-
-
 /*Tags for image*/
 
-.nicolas img
+#projet_image_content
+{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 45px;
+}
+
+.glasses
+{
+	width: 20%;
+	margin-right: 40px;
+	margin-left: 65px;
+}
+
+.glasses img
 {
 	width: 100%;
 }
 
-/*Tags for "nous contacter"*/
+.bunny
+{
+	width: 20%;
+	margin-right: 40px;
+}
 
-/*#id*/
+.bunny img
+{
+	width: 100%;
+}
+
+.pompadour
+{
+	width: 20%;
+	margin-right: 40px;
+}
+
+.pompadour img
+{
+	width: 100%;
+}
+
+.other_project
+{
+	width: 20%;
+	margin-right: 40px;
+}
+
+.other_project img
+{
+	width: 100%;
+}
+
+.shopping_bag
+{
+	width: 20%;
+	margin-top: 40px;
+	margin-left: 65px;
+}
+
+.shopping_bag img
+{
+	width: 100%;
+}
+
+.building
+{
+	width: 20%;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.building img
+{
+	width: 100%;
+}
+
+.rocket
+{
+	width: 20%;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.rocket img
+{
+	width: 100%;
+}
+
+.work
+{
+	width: 20%;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.work img
+{
+	width: 100%;
+}
+
+.burger
+{
+	width: 20%;
+	margin-left: 65px;
+	margin-top: 40px;
+}
+
+.burger img
+{
+	width: 100%;
+}
