@@ -8,6 +8,7 @@ body
 {
 	overflow-x: hidden;
 	font-family: roboto;
+	font-size: 0.9em;
 	color: #575A5E;
 }
 
@@ -17,7 +18,6 @@ h1
     text-transform: uppercase;
     margin: 0;
     font-size: 1.7rem;
-    /*width: 420px;*/
 }
 
 /*Tags for first party*/
@@ -197,11 +197,129 @@ input
 }
 
 
+/*Tags for "nos services"*/
 
-/*Tags for "nos projet"*/
+#service_content
+{
 
+}
 
+.header_service
+{
 
+}
+
+.service_title
+{
+
+}
+
+.dot_and_separator
+{
+
+}
+
+.dot_and_separator .fa-circle
+{
+
+}
+
+.service_separator
+{
+
+}
+
+.service_text
+{
+
+}
+
+.service_description
+{
+
+}
+
+.service_desktop
+{
+
+}
+
+.service_design
+{
+
+}
+
+.ux_design
+{
+
+}
+
+.fa-chart-line
+{
+
+}
+
+.ux_circle
+{
+
+}
+
+.ux_title
+{
+
+}
+
+.ux_text
+{
+
+}
+
+.ui_design
+{
+
+}
+
+.fa-cubes
+{
+
+}
+
+.ui_circle
+{
+
+}
+
+.ui_title
+{
+
+}
+
+.ui_text
+{
+
+}
+
+.seo_design
+{
+
+}
+
+.seo_circle
+{
+
+}
+
+.seo_title
+{
+
+}
+
+.seo_text
+{
+
+}
+
+/*Tags for "nos projets"*/
 
 /*.projet_content
 {
@@ -293,17 +411,17 @@ input
 #projet_navigation .block_nav 
 {
     position: relative;
-    background: #5CADD3;
+    /*background: #5CADD3;
     background-color: #5CADD3;
-    border: 2px solid #5CADD3;
+    border: 2px solid #5CADD3;*/
     text-decoration: none;
-    border-bottom: 3px solid #468CAD;
+    /*border-bottom: 3px solid #468CAD;*/
     border-radius: 3px;
 }
 
 #projet_navigation .active_text 
 {
-    color: #fff;
+    color: #575A5E;
 }
 
 #projet_navigation .nav_projet:hover
