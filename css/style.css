@@ -201,37 +201,62 @@ input
 
 #service_content
 {
-
+	margin-top: 50px;
+	border: 1px solid red;
 }
 
 .header_service
 {
 
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .service_title
 {
-
+	font-size: 1.7em;
 }
 
 .dot_and_separator
 {
-
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .dot_and_separator .fa-circle
 {
+	position: absolute;
+	left: 49.45%;
+	color: #5CADD3;
+	z-index: 3;
+}
 
+.service_circle
+{
+	position: absolute;
+	left: 49.244%;
+	width: 23px;
+	height: 23px;
+	background: #fff;
+	border-radius: 50px;
+	z-index: 2
 }
 
 .service_separator
 {
-
+	position: relative;
+	left: 46.5%;
+	width: 130px;
+	border: 1px solid #ECECEC;
+	z-index: 1;
 }
 
 .service_text
 {
-
+	text-align: center;
 }
 
 .service_description
@@ -244,7 +269,7 @@ input
 
 }
 
-.service_design
+/*.service_design
 {
 
 }
@@ -351,7 +376,7 @@ input
 	top: 60px;
 	width: 150px;
 	left: 46%;
-	border: 1px solid #ececec;
+	border: 1px solid #ECECEC;
 }
 
 .dot_projet
