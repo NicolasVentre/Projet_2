@@ -280,16 +280,30 @@ input
 .service_description
 {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+}
+
+.service_desktop
+{
+	width: 50%;
+	border: 1px solid;
+}
+
+.service_desktop img
+{
+	width: 100%;
 }
 
 .service_design
 {
-	position: relative;
-	left: 8%;
-	top: 33px;
-	width: 670px;
+	width: 50%;
+	border: 1px solid;
+}
+
+.ux_design
+{
+	display: flex;
+	flex-direction: row;
 }
 
 .fa-chart-line
@@ -329,15 +343,11 @@ input
 
 .fa-cubes
 {
-	position: relative;
-    left: -14%;
-    font-size: 1.8em;
-    top: 86px;
-    border: 1px solid #ECECEC;
-    padding: 18px;
-    border-radius: 50px;
+	font-size: 1.8em;
+	border: 1px solid #ECECEC;
+	padding: 18px;
+	border-radius: 50px;
 	color: #5CADD3;
-	z-index: 1;
 }
 
 .ui_circle
