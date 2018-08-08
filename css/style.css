@@ -20,9 +20,12 @@ h1
     font-size: 1.7rem;
 }
 
-/*Tags for first party*/
 
+
+/*Tags for first party*/
 /*Tags for HEADER*/
+
+
 header
 {
 	position: fixed;
@@ -90,6 +93,7 @@ header a:hover
 
 
 /*Tags for section id slide*/
+
 
 #slide
 {
@@ -199,10 +203,10 @@ input
 
 /*Tags for "nos services"*/
 
+
 #service_content
 {
 	margin-top: 50px;
-	border: 1px solid red;
 }
 
 .header_service
@@ -260,107 +264,133 @@ input
 
 .service_description
 {
-	border: 1px solid red;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 50px;
 }
-
-/*.service_desktop
-{
-
-}*/
 
 .service_design
 {
 	position: relative;
-	left: 5%;
-	border: 1px solid red;
+	left: 8%;
+	top: 33px;
 	width: 670px;
-}
-
-.ux_design
-{
-	border: 1px solid red;
 }
 
 .fa-chart-line
 {
-	color: #5CADD3; 
+	position: relative;
+    left: -14%;
+    font-size: 1.8em;
+    top: 86px;
+    border: 1px solid #ECECEC;
+    padding: 18px;
+    border-radius: 50px;
+	color: #5CADD3;
+	z-index: 1;
 }
 
 .ux_circle
 {
-	color: #5CADD3;
+	position: relative;
+    left: -5.8%;
+    top: 49px;
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    border-radius: 50px;
+    z-index: 2;
 }
 
-.ux_title
+.p_ux_circle
 {
-
-}
-
-.ux_text
-{
-
-}
-
-.ui_design
-{
-	border: 1px solid red;
+    position: relative;
+    left: -5.3%;
+    font-size: 0.7em;
+    top: 34px;
+    color: #5CADD3;
+    z-index: 3;
 }
 
 .fa-cubes
 {
+	position: relative;
+    left: -14%;
+    font-size: 1.8em;
+    top: 86px;
+    border: 1px solid #ECECEC;
+    padding: 18px;
+    border-radius: 50px;
 	color: #5CADD3;
+	z-index: 1;
 }
 
 .ui_circle
 {
-	color: #5CADD3;
+	position: relative;
+    left: -5.8%;
+    top: 49px;
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    border-radius: 50px;
+    z-index: 2;
 }
 
-.ui_title
+.p_ui_circle
 {
-
-}
-
-.ui_text
-{
-
-}
-
-.seo_design
-{
-	border: 1px solid red;
+	position: relative;
+    left: -5.3%;
+    font-size: 0.7em;
+    top: 34px;
+    color: #5CADD3;
+    z-index: 3;
 }
 
 .fa-chart-pie
 {
+	position: relative;
+    left: -14%;
+    font-size: 1.8em;
+    top: 86px;
+    border: 1px solid #ECECEC;
+    padding: 18px;
+    border-radius: 50px;
 	color: #5CADD3;
+	z-index: 1;
 }
 
 .seo_circle
 {
-	color: #5CADD3;
+	position: relative;
+    left: -5.4%;
+    top: 49px;
+    width: 17px;
+    height: 17px;
+    background: #fff;
+    border-radius: 50px;
+    z-index: 2;
 }
 
-.seo_title
+.p_seo_circle
 {
-
+	position: relative;
+    left: -4.8%;
+    font-size: 0.7em;
+    top: 34px;
+    color: #5CADD3;
+    z-index: 3;
 }
 
-.seo_text
-{
 
-}
 
 /*Tags for "nos projets"*/
 
-/*.projet_content
+
+.projet_content
 {
 	position: relative;
-	top: 640px;
+	top: 60px;
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -444,22 +474,6 @@ input
     color: #575A5E;
 }
 
-#projet_navigation .block_nav 
-{
-    position: relative;
-    background: #5CADD3;
-    background-color: #5CADD3;
-    border: 2px solid #5CADD3;
-    text-decoration: none;
-    border-bottom: 3px solid #468CAD;
-    border-radius: 3px;
-}
-
-#projet_navigation .active_text 
-{
-    color: #575A5E;
-}
-
 #projet_navigation .nav_projet:hover
 {
     background: #5CADD3;
@@ -470,11 +484,13 @@ input
 #projet_navigation .nav_projet a:hover 
 {
     color: #fff;
-}*/
+}
+
 
 /*Tags for image*/
 
-/*#projet_image_content
+
+#projet_image_content
 {
 	display: flex;
 	flex-direction: row;
@@ -568,4 +584,4 @@ input
 .work img
 {
 	width: 100%;
-}*/
+}
