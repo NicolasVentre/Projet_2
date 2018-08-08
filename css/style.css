@@ -214,13 +214,14 @@ input
 
 .service_title
 {
-	font-size: 1.7em;
+	font-size: 2em;
 }
 
 .dot_and_separator
 {
 	position: relative;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -247,9 +248,7 @@ input
 
 .service_separator
 {
-	position: relative;
-	left: 46.5%;
-	width: 130px;
+	width: 150px;
 	border: 1px solid #ECECEC;
 	z-index: 1;
 }
@@ -261,32 +260,39 @@ input
 
 .service_description
 {
-
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
 }
 
-.service_desktop
+/*.service_desktop
 {
 
-}
+}*/
 
-/*.service_design
+.service_design
 {
-
+	position: relative;
+	left: 5%;
+	border: 1px solid red;
+	width: 670px;
 }
 
 .ux_design
 {
-
+	border: 1px solid red;
 }
 
 .fa-chart-line
 {
-
+	color: #5CADD3; 
 }
 
 .ux_circle
 {
-
+	color: #5CADD3;
 }
 
 .ux_title
@@ -301,17 +307,17 @@ input
 
 .ui_design
 {
-
+	border: 1px solid red;
 }
 
 .fa-cubes
 {
-
+	color: #5CADD3;
 }
 
 .ui_circle
 {
-
+	color: #5CADD3;
 }
 
 .ui_title
@@ -326,12 +332,17 @@ input
 
 .seo_design
 {
+	border: 1px solid red;
+}
 
+.fa-chart-pie
+{
+	color: #5CADD3;
 }
 
 .seo_circle
 {
-
+	color: #5CADD3;
 }
 
 .seo_title
@@ -436,11 +447,11 @@ input
 #projet_navigation .block_nav 
 {
     position: relative;
-    /*background: #5CADD3;
+    background: #5CADD3;
     background-color: #5CADD3;
-    border: 2px solid #5CADD3;*/
+    border: 2px solid #5CADD3;
     text-decoration: none;
-    /*border-bottom: 3px solid #468CAD;*/
+    border-bottom: 3px solid #468CAD;
     border-radius: 3px;
 }
 
