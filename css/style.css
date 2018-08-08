@@ -9,6 +9,23 @@ border: 5px solid white;
     border-radius: 25px;
  */
 
+.jemetmonttitre
+{
+	margin-left: 1rem;
+}
+
+.jemetmonicone
+{
+	position: relative;
+}
+.jemetmonicone .fa-circle
+{
+	color: #5CADD3;
+	position: absolute;
+	top: 27px;
+	right: -6px;
+}
+
 body
 {
 	overflow-x: hidden;
