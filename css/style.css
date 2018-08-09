@@ -4,28 +4,6 @@
 	padding: 0;
 }
 
-/*
-border: 5px solid white;
-    border-radius: 25px;
- */
-
-.jemetmonttitre
-{
-	margin-left: 1rem;
-}
-
-.jemetmonicone
-{
-	position: relative;
-}
-.jemetmonicone .fa-circle
-{
-	color: #5CADD3;
-	position: absolute;
-	top: 27px;
-	right: -6px;
-}
-
 body
 {
 	overflow-x: hidden;
@@ -40,14 +18,6 @@ h1
     text-transform: uppercase;
     margin: 0;
     font-size: 1.7rem;
-}
-
-.test
-{
-	position: relative;
-	height: 15px;
-	display: flex;
-	align-items: center;
 }
 
 
@@ -261,15 +231,21 @@ input
 	margin-bottom: 25px;
 }
 
+.test
+{
+	position: relative;
+	height: 15px;
+	display: flex;
+	align-items: center;
+}
+
 .dot_and_separator .fa-circle
 {
 	position: absolute;
-	/*left: 49.45%;*/
-	left: 45%;
+	left: 41%;
 	color: #5CADD3;
 	border: 5px solid white;
 	border-radius: 25px;
-	/*z-index: 3;*/
 }
 
 .service_circle
@@ -298,12 +274,14 @@ input
 {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	margin-top: 40px;
 }
 
 .service_desktop
 {
-	width: 50%;
-	border: 1px solid;
+	width: 25%;
+	/*border: 1px solid red;*/
 }
 
 .service_desktop img
@@ -314,48 +292,50 @@ input
 .service_design
 {
 	width: 50%;
-	border: 1px solid;
+	/*border: 1px solid red;*/
+	margin-top: 60px;
+	margin-left: 5%;
 }
 
 .ux_design
 {
 	display: flex;
 	flex-direction: row;
+	margin-bottom: 35px;
+}
+
+.dot_and_circle
+{
+	position: relative;
+}
+.dot_and_circle .fa-circle
+{
+	color: #5CADD3;
+	position: absolute;
+	font-size: 0.8em;
+	top: 27px;
+	right: -4px;
+}
+
+.title_and_text
+{
+	margin-left: 1rem;
 }
 
 .fa-chart-line
 {
-	position: relative;
-    left: -14%;
-    font-size: 1.8em;
-    top: 86px;
-    border: 1px solid #ECECEC;
-    padding: 18px;
-    border-radius: 50px;
+	font-size: 1.8em;
+	border: 1px solid #ECECEC;
+	padding: 18px;
+	border-radius: 50px;
 	color: #5CADD3;
-	z-index: 1;
 }
 
-.ux_circle
+.ui_design
 {
-	position: relative;
-    left: -5.8%;
-    top: 49px;
-    width: 17px;
-    height: 17px;
-    background: #fff;
-    border-radius: 50px;
-    z-index: 2;
-}
-
-.p_ux_circle
-{
-    position: relative;
-    left: -5.3%;
-    font-size: 0.7em;
-    top: 34px;
-    color: #5CADD3;
-    z-index: 3;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 35px;
 }
 
 .fa-cubes
@@ -367,63 +347,20 @@ input
 	color: #5CADD3;
 }
 
-.ui_circle
+.seo_design
 {
-	position: relative;
-    left: -5.8%;
-    top: 49px;
-    width: 17px;
-    height: 17px;
-    background: #fff;
-    border-radius: 50px;
-    z-index: 2;
-}
-
-.p_ui_circle
-{
-	position: relative;
-    left: -5.3%;
-    font-size: 0.7em;
-    top: 34px;
-    color: #5CADD3;
-    z-index: 3;
+	display: flex;
+	flex-direction: row;
 }
 
 .fa-chart-pie
 {
-	position: relative;
-    left: -14%;
-    font-size: 1.8em;
-    top: 86px;
-    border: 1px solid #ECECEC;
-    padding: 18px;
-    border-radius: 50px;
+	font-size: 1.8em;
+	border: 1px solid #ECECEC;
+	padding: 18px;
+	border-radius: 50px;
 	color: #5CADD3;
-	z-index: 1;
 }
-
-.seo_circle
-{
-	position: relative;
-    left: -5.4%;
-    top: 49px;
-    width: 17px;
-    height: 17px;
-    background: #fff;
-    border-radius: 50px;
-    z-index: 2;
-}
-
-.p_seo_circle
-{
-	position: relative;
-    left: -4.8%;
-    font-size: 0.7em;
-    top: 34px;
-    color: #5CADD3;
-    z-index: 3;
-}
-
 
 
 /*Tags for "nos projets"*/
