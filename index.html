@@ -116,24 +116,30 @@ c'est comme ça que nous travaillons chez WebAgency</p>
 		
 		<div class="projet_content">
 
-			<div class="projet">
-				<h2 class="projet_titre">Nos projets</h2>
-				<div class="projet_separateur"></div>
-				<div class="dot_projet"><i class="fas fa-circle"></i></div>
-				<div class="projet_texte">Voici quelques créations de notre équipe de développeurs</div>
+			<div class="header_projet">
+				<h2 class="projet_title">Nos projets</h2>
+				<div class="dot_and_separator">
+					<div class="dot_and_border">
+						<i class="fas fa-circle"></i>
+						<div class="projet_separator"></div>
+					</div>
+				</div>
 			</div>
+
+			<p class="projet_text">Voici le services que nous vous proposons afin de concevoir le site web de vos rêves, 
+c'est comme ça que nous travaillons chez WebAgency</p>
 
 			<nav id="projet_navigation">
 				<ul>
-					<li class="nav_projet"><a href="#">All Works</a></li>
-					<li class="nav_projet"><a href="#">Creative</a></li>
-					<li class="nav_projet"><a href="#">Corporate</a></li>
+					<li class="nav_projet"><a href="#">All Works</a></li>					
+					<li class="nav_projet"><a href="#">Creative</a></li>					
+					<li class="nav_projet"><a href="#">Corporate</a></li>					
 					<li class="nav_projet"><a href="#">Portfolio</a></li>
 				</ul>
 			</nav>
 				
 	<!--DIFFERENTS PROJETS REALISER-->
-
+			
 			<div id="projet_image_content">
 			
 			<div class="image_row">	
@@ -174,11 +180,12 @@ c'est comme ça que nous travaillons chez WebAgency</p>
 		</div>	
 
 	<!--NOUS CONTACTER-->	
-		<!--
+		
 		<div id="contact">
+			<!--
 			<div class="map_contact">
 				<img src="image/map.png" alt="background_contact">
-			</div>
+			</div>-->
 
 			<div class="informations">
 				<h3>Contact Info</h3>
@@ -186,7 +193,8 @@ c'est comme ça que nous travaillons chez WebAgency</p>
 				<p class="adress">25 Rue d'Hauteville 75010 Paris</p>
 				<p class="tel_number">Tél: 01 02 03 04 05</p>
 			
-			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY9W9kp7f2UoPtHIQc8tOY-UIUjTVGryU&callback=initMap"async defer></script>
+
 				<form method="post" action="traitement.php">
 					<input type="text" name="pseudo" id="pseudo" placeholder="Nom">
 					<input type="email" name="mail" id="mail" placeholder="Email">
@@ -195,7 +203,7 @@ c'est comme ça que nous travaillons chez WebAgency</p>
 					<input type="submit" value="Envoyez votre message">
 				</form>
 			</div>
-		</div>-->
+		</div>
 	
 	</body>
 

@@ -21,7 +21,6 @@ h1
 }
 
 
-
 /*Tags for first party*/
 /*Tags for HEADER*/
 
@@ -259,6 +258,10 @@ header a:hover
 	text-align: center;
 }
 
+
+/*Tags for services description*/
+
+
 .service_description
 {
 	display: flex;
@@ -366,41 +369,59 @@ header a:hover
     background-color: #F5F5F5;
 }
 
-.projet
+.header_projet
 {
-	left: 33%;
-}
 
-.projet_titre
-{
-	text-align: center;
-	margin-bottom: 50px;
 	text-transform: uppercase;
+	text-align: center;
 }
 
-.projet_separateur
+.projet_title
+{
+	font-size: 2em;
+}
+
+.dot_and_separator
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.dot_and_border
+{
+	position: relative;
+	height: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.dot_and_separator .fa-circle
 {
 	position: absolute;
-	top: 60px;
+	left: 41%;
+	color: #5CADD3;
+	border: 5px solid white;
+	border-radius: 25px;
+}
+
+.projet_separator
+{
 	width: 150px;
-	left: 46%;
 	border: 1px solid #ECECEC;
 }
 
-.dot_projet
-{
-	position: absolute;
-	top: 45px;
-	left: 49.1%;
-	color: #5CADD3;
-	border: 7px solid #fff;
-	border-radius: 50%;
-}
-
-.projet_texte
+.projet_text
 {
 	text-align: center;
 }
+
+
+/*Tags for navigation project*/
+
 
 #projet_navigation
 {
@@ -446,6 +467,7 @@ header a:hover
     background: #5CADD3;
     border-bottom: 3px solid #468CAD;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #projet_navigation .nav_projet a:hover 
@@ -466,7 +488,7 @@ header a:hover
 .ctn_image
 {
     width: 25%;
-    padding: 0.1rem;
+    padding: 0.5rem;
 }
 
 .ctn_image img
@@ -479,6 +501,7 @@ header a:hover
 	display: flex;
 	flex-direction: row;
 }
+
 
 /*Tags for "contact"*/
 
