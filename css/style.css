@@ -461,6 +461,12 @@ header a:hover
     color: #575A5E;
 }
 
+.fa-caret-down
+{
+    color: #468CAD;
+    font-size: 2em;
+}
+
 #projet_navigation .nav_projet:hover
 {
     background: #5CADD3;
@@ -477,7 +483,7 @@ header a:hover
 /*Tags for image*/
 
 
-#projet_image_content
+/*#projet_image_content
 {
 	margin-top: 45px;
 	width: 90%;
@@ -498,7 +504,7 @@ header a:hover
 {
 	display: flex;
 	flex-direction: row;
-}
+}*/
 
 
 /*Tags for "contact"*/
@@ -510,15 +516,8 @@ header a:hover
 	margin-top: 100px;
 }
 
-
-iframe
-{
-
-}
-
 .formulaire
 {
-	display: flex;
-	justify-content: center;
+
 }
 
