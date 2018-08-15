@@ -466,16 +466,16 @@ header a:hover
     font-size: 2em;
 }
 
-#projet_navigation .nav_projet:hover
+.nav_projet:hover
 {
     background: #5CADD3;
     border-bottom: 3px solid #468CAD;
     border-radius: 3px;
 }
 
-#projet_navigation .nav_projet a:hover 
+.nav_projet:hover .work a  
 {
-    color: #fff;
+    color: white;
 }
 
 
