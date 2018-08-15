@@ -110,7 +110,6 @@ header a:hover
 	position: absolute;
 	top: 50%;
 	width: 100%;
-	height: 3.5em;
 }
 
 .fa-angle-left
@@ -510,7 +509,7 @@ header a:hover
 /*Tags for "contact"*/
 
 
-#contact
+/*#contact
 {
 	position: relative;
 	margin-top: 100px;
@@ -519,5 +518,5 @@ header a:hover
 .formulaire
 {
 
-}
+}*/
 
