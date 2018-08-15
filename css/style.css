@@ -21,6 +21,13 @@ h1
 }
 
 
+/* New line soma */
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
 /*Tags for first party*/
 /*Tags for HEADER*/
 
@@ -454,11 +461,6 @@ header a:hover
     width: 86px;
 }
 
-#projet_navigation a 
-{
-    text-decoration: none;
-    color: #575A5E;
-}
 
 .fa-caret-down
 {
@@ -473,7 +475,9 @@ header a:hover
     border-radius: 3px;
 }
 
-.nav_projet:hover .work a  
+/* New line soma */
+
+.nav_projet:hover a
 {
     color: white;
 }
