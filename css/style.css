@@ -281,7 +281,6 @@ header a:hover
 .service_desktop
 {
 	width: 25%;
-	/*border: 1px solid red;*/
 }
 
 .service_desktop img
@@ -292,7 +291,6 @@ header a:hover
 .service_design
 {
 	width: 50%;
-	/*border: 1px solid red;*/
 	margin-top: 60px;
 	margin-left: 5%;
 }
@@ -310,8 +308,8 @@ header a:hover
 }
 .dot_and_circle .fa-circle
 {
-	color: #5CADD3;
 	position: absolute;
+	color: #5CADD3;
 	font-size: 0.8em;
 	top: 27px;
 	right: -4px;
@@ -485,7 +483,7 @@ header a:hover
 
 .nav_projet:hover .fa-caret-down
 {
-	color: green;
+	color: red;
 }
 
 
