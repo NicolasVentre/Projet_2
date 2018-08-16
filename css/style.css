@@ -461,7 +461,7 @@ header a:hover
     width: 86px;
 }
 
-li .fa-caret-down
+.fa-caret-down
 {
     color: #468CAD;
     font-size: 2em;
@@ -479,6 +479,11 @@ li .fa-caret-down
 .nav_projet:hover a
 {
     color: #fff;
+}
+
+.nav_projet:hover .fa-caret-down
+{
+	color: red;
 }
 
 
