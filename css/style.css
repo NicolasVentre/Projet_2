@@ -186,6 +186,7 @@ header a:hover
 .slider_texte
 {
 	margin-bottom: 15px;
+	font-size: 1.2em;
 }
 
 .slider_button
@@ -195,6 +196,7 @@ header a:hover
 	background-color: #5CADD3;
 	color: white;
 	border-radius: 3px;
+	border-bottom: 3px solid #54A5CB;
 }
 
 .slider_button input
@@ -461,7 +463,6 @@ header a:hover
     width: 86px;
 }
 
-
 .fa-caret-down
 {
     color: #468CAD;
@@ -475,11 +476,11 @@ header a:hover
     border-radius: 3px;
 }
 
-/* New line soma */
+/* New line Soma */
 
 .nav_projet:hover a
 {
-    color: white;
+    color: #fff;
 }
 
 
@@ -519,8 +520,65 @@ header a:hover
 	margin-top: 100px;
 }
 
-.formulaire
+iframe
 {
-
+	position: absolute;
 }
 
+.background_lisere
+{
+	position: absolute;
+	width: 100%;
+	height: 700px; 
+	background-color: #5CADD3;
+	opacity: 0.3;
+}
+
+form
+{
+	position: absolute;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px 20px 20px;
+    margin-left: 65%;
+    margin-top: 5%;
+    min-width: 250px;
+}
+
+.title_contact
+{
+	margin-bottom: 20px;
+	color: #000;
+}
+
+.tel_number
+{
+	margin-bottom: 20px;
+}
+
+form input
+{
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+textarea
+{
+	height: 100px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+form button
+{
+	width: 50%;
+	background-color: #5CADD3;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	border-bottom: 3px solid #4494BB;
+	padding-top: 3px;
+    padding-bottom: 3px;
+}
