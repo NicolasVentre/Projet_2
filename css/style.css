@@ -483,6 +483,11 @@ header a:hover
     color: #fff;
 }
 
+.nav_projet:hover .fa-caret-down
+{
+	color: green;
+}
+
 
 /*Tags for image*/
 
