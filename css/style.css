@@ -246,13 +246,17 @@ header a:hover
 	align-items: center;
 }
 
+.fa-circle
+{
+	border: 5px solid #fff;
+	border-radius: 25px;
+}
+
 .dot_and_separator .fa-circle
 {
 	position: absolute;
 	left: 41%;
 	color: #5CADD3;
-	border: 5px solid white;
-	border-radius: 25px;
 }
 
 .service_separator
@@ -280,19 +284,19 @@ header a:hover
 
 .service_desktop
 {
-	width: 25%;
+	width: 50%;
 }
 
 .service_desktop img
 {
-	width: 100%;
+	margin-left: 40%;
+	max-width: 100%;
 }
 
 .service_design
 {
 	width: 50%;
 	margin-top: 60px;
-	margin-left: 5%;
 }
 
 .ux_design
@@ -311,12 +315,13 @@ header a:hover
 	position: absolute;
 	color: #5CADD3;
 	font-size: 0.8em;
-	top: 27px;
-	right: -4px;
+	top: 22px;
+	right: -9px;
 }
 
 .title_and_text
 {
+	width: 50%;
 	margin-left: 1rem;
 }
 
@@ -455,16 +460,21 @@ header a:hover
     font-size: 0.8em;
 }
 
-#projet_navigation li 
+#projet_navigation li
 {
+	position: relative;
     padding: 0.2rem 0.8rem;
     width: 86px;
 }
 
 .fa-caret-down
 {
+	position: absolute;
+	top: 87%;
+	left: 44%;
     color: #468CAD;
     font-size: 2em;
+    visibility: hidden;
 }
 
 .nav_projet:hover
@@ -483,7 +493,7 @@ header a:hover
 
 .nav_projet:hover .fa-caret-down
 {
-	color: red;
+	visibility: visible;
 }
 
 
@@ -519,22 +529,18 @@ header a:hover
 
 #contact
 {
-	position: relative;
+	/*position: relative;*/
 	margin-top: 100px;
+	background-color: #5CADD3;
+	/*position: absolute;*/
+	width: 100%;
+	height: 700px; 
 }
 
 iframe
 {
 	position: absolute;
-}
-
-.background_lisere
-{
-	position: absolute;
-	width: 100%;
-	height: 700px; 
-	background-color: #5CADD3;
-	opacity: 0.3;
+	opacity: 0.8;
 }
 
 form
@@ -545,8 +551,8 @@ form
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px 20px 20px;
-    margin-left: 65%;
-    margin-top: 5%;
+    margin-left: 70%;
+    margin-top: 7%;
     min-width: 250px;
 }
 
