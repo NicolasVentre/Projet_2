@@ -1,6 +1,6 @@
 /*Rules media queries for mobile device*/
 
-@media all and (max-width: 426px)
+@media all and (min-width: 320px) and (max-width: 426px)
 {
 	body
 	{
@@ -116,7 +116,7 @@
 	.slider_texte
 	{
 		width: 50%;
-		font-size: 1.1em;
+		font-size: 0.8em;
 	}
 
 	.slider_button
@@ -205,6 +205,11 @@
     	color: #5CADD3;
 	}
 
+	#projet_navigation
+	{
+		width: 300px;
+	}
+
 	#projet_image_content
 	{
 		display: flex;
@@ -237,5 +242,89 @@
     	padding: 10px 20px 20px 20px;
     	margin-left: 0;
     	margin-top: 0;
+	}
+}
+
+
+/*Rules of breakpoint*/
+
+
+@media all and (min-width: 426px) and (max-width: 1369px)
+{
+	.service_description
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.service_desktop
+	{
+		display: flex;
+		justify-content: center;
+		width: 100%
+	}
+
+	.service_desktop img
+	{
+		margin-left: 0;
+	}
+
+	.service_design
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.title_and_text
+	{
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 426px) and (max-width: 965px)
+{
+	.webagency_intro
+	{
+		top: 35%;
+		left: 10%;
+		width: 55%
+	}
+
+	.dot_and_circle
+	{
+		top: 25px;
+	}
+
+	.dot_and_circle .fa-circle 
+	{
+    	font-size: 0.7em;
+    	top: 12px;
+    }
+
+    .fa-chart-line 
+    {
+    	font-size: 1.2em;
+    	padding: 12px;
+	}
+
+	.fa-cubes 
+	{
+    	font-size: 1.2em;
+    	padding: 12px;
+	}
+
+	.fa-chart-pie 
+	{
+   		font-size: 1.2em;
+    	padding: 12px;
+	}
+
+	form
+	{
+		margin-left: 5%;
+		margin-top: 17%;
 	}
 }
