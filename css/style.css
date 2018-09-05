@@ -523,7 +523,67 @@ header a:hover
 {
 	display: flex;
 	flex-direction: row;
+	position: relative;
 }
+
+.description_projet
+{
+	position: relative;
+	bottom: 0;
+	color: #fff;
+}
+
+.resume_projet
+{
+	position: absolute;
+	opacity: 0;
+	top: -65px;
+	width: 99%;
+	height: 60px;
+}
+
+.description_projet .resume_projet:hover
+{
+	position: absolute;
+	top: -65px;
+	width: 99%;
+	height: 60px;
+	border: 1px solid #000;
+	background-color: #000;
+	opacity: 0.7;
+}
+
+.resume_projet h4
+{
+	margin: 5px 0 4px 5px;
+}
+.resume_projet p
+{
+	margin-left: 5px;
+	font-size: 0.8em;
+}
+
+.eyes
+{
+	border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #5DADD2;
+    position: absolute;
+    top: -30%;
+    right: 6%;
+    width: 25px;
+    height: 25px;
+}
+
+.eyes i
+{
+	position: absolute;
+	top: 7px;
+	left: 1px;
+	color: #fff;
+	margin: 0 4px 3px 4px;
+}
+
 
 
 /*Tags for "contact"*/
