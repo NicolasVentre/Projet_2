@@ -445,6 +445,25 @@ header a:hover
     border-radius: 3px;
 }
 
+.block_nav 
+{
+	background: #5CADD3;
+	border-bottom: 3px solid #468CAD;
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+}
+
+.block_nav .fa-caret-down
+{
+	visibility: visible;
+}
+
+.block_nav a
+{
+	color: #fff
+}
+ 
 .nav_projet
 {
 	border-bottom: 3px solid #E5E5E5;
@@ -484,6 +503,7 @@ header a:hover
     background: #5CADD3;
     border-bottom: 3px solid #468CAD;
     border-radius: 3px;
+    color: #fff;
 }
 
 /* New line Soma */
@@ -526,44 +546,46 @@ header a:hover
 	position: relative;
 }
 
-.description_projet
+/*.description_projet
 {
 	position: relative;
 	bottom: 0;
 	color: #fff;
-}
+}*/
 
-.resume_projet
+figcaption
 {
-	position: absolute;
+	position: relative;
 	opacity: 0;
 	top: -65px;
 	width: 99%;
 	height: 60px;
+	color: #fff;
 }
 
-.description_projet .resume_projet:hover
+figcaption:hover
 {
-	position: absolute;
+	position: relative;
 	top: -65px;
 	width: 99%;
 	height: 60px;
 	border: 1px solid #000;
 	background-color: #000;
+	color: #fff;
 	opacity: 0.7;
 }
 
-.resume_projet h4
+figcaption h4
 {
 	margin: 5px 0 4px 5px;
 }
-.resume_projet p
+figcaption p
 {
 	margin-left: 5px;
 	font-size: 0.8em;
 }
 
-.eyes
+/*.eyes
 {
 	border-radius: 50%;
     border: 2px solid #fff;
@@ -582,7 +604,27 @@ header a:hover
 	left: 1px;
 	color: #fff;
 	margin: 0 4px 3px 4px;
+}*/
+span .fa-eye
+{
+	top: 7px;
+	left: 1px;
+	margin: 0 4px 3px 4px;
 }
+
+.fa-eye
+{
+	position: absolute;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	background-color: #5DADD2;
+	top: -30%;
+	right: 6%;
+	width: 25px;
+	height: 25px;
+	margin: 0 4px 3px 4px;
+}
+
 
 
 
