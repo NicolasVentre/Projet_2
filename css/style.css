@@ -370,7 +370,7 @@ header a:hover
 /*Tags for "nos projets"*/
 
 
-.projet_content
+#projet_content
 {
 	position: relative;
 	display: flex;
