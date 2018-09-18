@@ -180,14 +180,14 @@
 		margin-top: 15px;
 	}
 
-	.ctn_image
+	figure
 	{
 		width: 85%;
 	}
 
-	.image_row
+	figcaption
 	{
-		display: block;
+		width: 94.3%;
 	}
 
 	iframe
@@ -206,7 +206,7 @@
 
 /*Rules of breakpoint*/
 
-@media all and (min-width: 426px) and (max-width: 768px)
+@media all and (min-width: 426px) and (max-width: 767px)
 {
 	header ul
 	{
@@ -354,14 +354,9 @@
 		margin-top: 15px;
 	}
 
-	.ctn_image
+	figure
 	{
 		width: 85%;
-	}
-
-	.image_row
-	{
-		display: block;
 	}
 
 	iframe
@@ -377,7 +372,7 @@
 	}
 }
 
-@media all and (min-width: 769px) and (max-width: 1370px)
+@media all and (min-width: 768px) and (max-width: 1370px)
 {
 	.webagency_intro
 	{
@@ -409,6 +404,11 @@
 	.title_and_text
 	{
 		width: auto;
+	}
+
+	figure
+	{
+		width: 20%;
 	}
 
 	form
